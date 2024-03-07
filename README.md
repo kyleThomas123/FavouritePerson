@@ -18,7 +18,7 @@ Example: https://kylethmas.github.io/CVTemplate/
 - Add in your uni courses
 - Add in your linkedin url
 
-### Access it on the internet
+### Optional Extension: Access it on the internet
 - Use Github Desktop to add it to github
 - Follow instructions on https://pages.github.com/ to see it on your phone
 - Select options project site then start from scratch and skip to step 4
