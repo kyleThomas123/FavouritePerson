@@ -1,6 +1,11 @@
 # CVTemplate
 
-Example: https://kylethmas.github.io/CVTemplate/
+Many professionals showcase their achievements through their online websites. Here are some exmaples:
+- https://stevenbartlett.com/
+- https://www.deborahmeaden.com/
+- https://davidcthomas.co.uk/ (Portfolio website)
+
+This is the starting template for this workshop: https://kylethmas.github.io/CVTemplate/
 
 ## Starting From Scratch
 
@@ -8,7 +13,7 @@ Example: https://kylethmas.github.io/CVTemplate/
 - Download visual studio code - https://code.visualstudio.com/Download
 - Download github desktop - https://desktop.github.com/
 - Create a github.com account
-- Fork and Clone this repositary
+- Fork and Clone this repository
 
 ### Make it your own
 - Open the CV Template Folder in Visual Studio Code
