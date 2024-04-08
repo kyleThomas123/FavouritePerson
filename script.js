@@ -11,13 +11,6 @@ document.querySelectorAll('nav a[href*="#"]').forEach(anchor => {
     });
 });
 
-// Toggle Nav menu on mobiles
-const navToggle = document.querySelector('.nav-toggle');
-const navMenu = document.querySelector('nav ul');
-
-navToggle.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
-});
 
 
 
