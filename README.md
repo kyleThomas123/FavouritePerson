@@ -6,6 +6,8 @@ Many professionals showcase their achievements through their online websites. He
 - https://davidcthomas.co.uk/ (Portfolio website)
 - https://danielmoulton.me/ (HPE intern website)
 - https://kylethmas.github.io/ (My website)
+- https://ethanbrews.me
+- https://benchung.dev
 
 This is the starting template for this workshop: https://kylethmas.github.io/CVTemplate/
 
