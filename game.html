@@ -16,8 +16,14 @@
     <div class="container">
         <div class="player-names">
             <div class="player-inputs">
-                <input type="text" id="playerX" placeholder="Enter name for player X">
-                <input type="text" id="playerO" placeholder="Enter name for player O">
+                <div class="player-input">
+                    <span id="player1-symbol" class="player-symbol">Player X</span>
+                    <input type="text" id="playerX" placeholder="Enter name">    
+                </div>
+                <div class="player-input">
+                    <span id="player2-symbol" class="player-symbol">Player O</span>
+                    <input type="text" id="playerO" placeholder="Enter name">   
+                </div>
             </div>
             <button class="btn" onclick="startGame()" title="Start the game">Start</button>
         </div>

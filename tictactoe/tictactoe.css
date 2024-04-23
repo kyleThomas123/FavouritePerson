@@ -65,14 +65,29 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 input[type="text"]{
-  margin-right: 11px;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 3px;
   height: 50px;
   font-size: large;
+  border: none;
+  width: 70%;
+}
+.player-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.player-input > span {
+  padding: 3px;
+  width: 30%;
 }
 
 
