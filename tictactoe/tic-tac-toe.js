@@ -24,8 +24,10 @@ const tic_tac_toe = {
                     ],
 
     // FUNCTIONS
-    init(container) {
+    init(container, playerXName, playerOName) {
         this.container_element = container;
+        this.playerXName = playerXName;
+        this.playerOName = playerOName;
     },
 
     make_play(position) {
@@ -37,11 +39,18 @@ const tic_tac_toe = {
 
         const winning_sequences_index = this.check_winning_sequences(currentSymbol);
         if (this.is_game_over()){
-            this.game_is_over();
+            setTimeout(() => { //Timeout to allow the last symbol to be drawn before the alert
+                this.game_is_over();
+            }, 100);
         }
         if (winning_sequences_index >= 0) {
-            this.game_is_over();
+
             this.stylize_winner_sequence(this.winning_sequences[winning_sequences_index]);
+            if (! this.is_game_over()){
+                setTimeout(() => {
+                    this.game_is_over();
+                }, 100); 
+            }
         } else {
             this.symbols.change();
         }
@@ -73,7 +82,13 @@ const tic_tac_toe = {
 
     game_is_over() {
         this.gameover = true;
-        console.log('GAME OVER');
+        const winnerIndex = this.check_winning_sequences('O') >= 0 ? 0 : (this.check_winning_sequences('X') >= 0 ? 1 : -1);
+        if (winnerIndex >= 0) {
+            const winner = this.symbols.options[winnerIndex];
+            alert(`${winner === 'X' ? this.playerXName : this.playerOName} won the game!`);
+        } else {
+            alert('It\'s a tie!');
+        }
     },
 
     is_game_over() {

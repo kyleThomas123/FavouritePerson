@@ -13,22 +13,41 @@
     <header>
         <a href="./index.html"><h1>John Smith</h1></a>
     </header>
+    <div class="container">
+        <div class="player-names">
+            <div class="player-inputs">
+                <input type="text" id="playerX" placeholder="Enter name for player X">
+                <input type="text" id="playerO" placeholder="Enter name for player O">
+            </div>
+            <button class="btn" onclick="startGame()" title="Start the game">Start</button>
+        </div>
+        <div class="game"></div>
+        <!-- <button class="btn" onclick="tic_tac_toe.restart()" title="Restart this game">Restart</button> -->
+    </div>
     
-    <div class='game'></div>
-    <button class="btn" onclick="tic_tac_toe.restart()" title="Restart this game">Restart</button>
+   
 
     <script src="./tictactoe/tic-tac-toe.js"></script>
     <script>
-        tic_tac_toe.init( document.querySelector('.game') );
-        tic_tac_toe.start();
-    </script>
-    
+        let playerXName = '';
+        let playerOName = '';
 
+        function startGame() {
+            playerXName = document.getElementById('playerX').value.trim();
+            playerOName = document.getElementById('playerO').value.trim();
+            if (playerXName && playerOName) {
+                tic_tac_toe.init(document.querySelector('.game'), playerXName, playerOName);
+                tic_tac_toe.start();
+            } else {
+                alert('Please enter names for both players.');
+            }
+        }
+    </script>
 
 </body>
 
 <footer>
-    <p>&copy; 20XX John Smith</p>
+    <p>&copy; 2024 John Smith</p>
 </footer>
 
 

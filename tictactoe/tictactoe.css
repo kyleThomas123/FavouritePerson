@@ -9,11 +9,12 @@ body {
 .game {
   width: 100vw;
   height: 100vw;
-  margin: 0 auto;
+  margin: 0;
   background-color: #34495e;
   color: #fff;
   display: grid;
-  grid-template: repeat(3, 1fr) / repeat(3, 1fr)
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  margin-bottom: 20px;
 }
 
 .game>div {
@@ -30,8 +31,9 @@ body {
   border: 5px solid #2c3e50;
   background-color: #34495e;
   color: white;
-  margin-top: 10px;
-  padding: 10px 20px
+  margin-top: 0px;
+  width: 100px;
+  height: 50px;
 }
 
 .game > div.winner {
@@ -41,6 +43,38 @@ body {
 .game > div.winner > span {
   color: blue;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.player-names {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0cm;
+  margin-right: 0cm;
+  width: 600px;
+  margin-bottom: 10px;
+}
+
+.player-inputs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input[type="text"]{
+  margin-right: 11px;
+  padding: 5px;
+  border-radius: 5px;
+  height: 50px;
+  font-size: large;
+}
+
 
 @media (min-width: 600px) {
   .game {
