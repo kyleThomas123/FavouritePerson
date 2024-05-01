@@ -85,9 +85,9 @@ const tic_tac_toe = {
         const winnerIndex = this.check_winning_sequences('O') >= 0 ? 0 : (this.check_winning_sequences('X') >= 0 ? 1 : -1);
         if (winnerIndex >= 0) {
             const winner = this.symbols.options[winnerIndex];
-            alert(`${winner === 'X' ? this.playerXName : this.playerOName} won the game!`);
+            console.log(`${winner === 'X' ? this.playerXName : this.playerOName} won the game!`);
         } else {
-            alert('It\'s a tie!');
+            console.log('It\'s a tie!');
         }
     },
 
