@@ -1,33 +1,26 @@
-# CVTemplate
+# Favourite Person
 
-Many professionals showcase their achievements through their online websites. Here are some exmaples:
-- https://stevenbartlett.com/
-- https://www.deborahmeaden.com/
+Many professionals showcase their achievements through their online websites. Here are some examples:
+
+- https://stevenbartlett.com/ (Portfolio website)
+- https://www.deborahmeaden.com/ (Portfolio website)
 - https://davidcthomas.co.uk/ (Portfolio website)
 - https://danielmoulton.me/ (HPE intern website)
 - https://kylethmas.github.io/ (My website)
-- https://ethanbrews.me
-- https://benchung.dev
+- https://ethanbrews.me (HPE intern website)
+- https://benchung.dev (HPE intern website)
 
-This is the starting template for this workshop: https://kylethmas.github.io/CVTemplate/
+### Workshop Overview
 
-## Starting From Scratch
+- We will be going through a PowerPoint presentation with instructions on how to complete each task. Then, we will be placing you in teams to work through the tasks, aiming to get as many done as you're able. Don't worry about trying to complete them all, just attempting the tasks is great! We will be running a live demonstration throughout, so hopefully you won't get too lost, but if you do please do reach out to any of our mentors who will be happy to help you out with any problems. Once the project has been complete, our mentors will be looking over all of them will decide a winning team. This will be based on our favourite design, so be creative with your solutions!
 
-### Set up
-- Download visual studio code - https://code.visualstudio.com/Download
-- Download github desktop - https://desktop.github.com/
-- Create a github.com account
-- Fork and Clone this repository
+### Tasks
+- Edit the colours of different elements within the CSS file
+- Change the dimensions of some of the elements in the HTML file
+- Add more images into the image gallery in the HTML file
+- Edit the external link to link to a website of your choosing
+- Add a bio from Wikipedia
 
-### Make it your own
-- Open the CV Template Folder in Visual Studio Code
-- Replace the CV template with your details
-- Add in more experiences and skills
-- Change the Colours/Layout/Order
-- Add in your uni courses
-- Add in your linkedin url
-
-### Optional Extension: Access it on the internet
-- Use Github Desktop to add it to github
-- Follow instructions on https://pages.github.com/ to see it on your phone
-- Select options project site then start from scratch and skip to step 4
+### Optional Extension: JavaScript TicTacToe
+- Change the colours of the tic-tac-toe game to match the theme of the website
+- Add an alert to the game to display the whether player 1 or 2 has won
