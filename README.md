@@ -12,14 +12,18 @@ Many professionals showcase their achievements through their online websites. He
 
 ### Workshop Overview
 
-- We will be going through a PowerPoint presentation with instructions on how to complete each task. Then, we will be placing you in teams to work through the tasks, aiming to get as many done as you're able. Don't worry about trying to complete them all, just attempting the tasks is great! We will be running a live demonstration throughout, so hopefully you won't get too lost, but if you do please do reach out to any of our mentors who will be happy to help you out with any problems. Once the project has been complete, our mentors will be looking over all of them will decide a winning team. This will be based on our favourite design, so be creative with your solutions!
+- Using the PowerPoint presentation that covers the basic skills needed to solve each task and [W3Schools](https://www.w3schools.com/html/default.asp). 
+- Aim to get as many tasks completed as possible. Don't worry about trying to complete them all, just attempting the tasks is great! 
+- Your team mentor is here to help, if you have any questions ask them so hopefully you won't get too lost.
+- Once the project has been completed, our judges will be looking over all of them and will decide a winning website. This will be based on the best user experience, aesthetically pleasing designs, and the inclusion of any cool features (found on W3Schools), so be creative with your solutions!
 
 ### Tasks
-- Edit the colours of different elements within the CSS file
+- Change the text in the HTML so its accurate for your favourite person
+- Edit the colours of different elements (titles, backgrounds text) and make it your own by changing the CSS file
 - Change the dimensions of some of the elements in the HTML file
-- Add more images into the image gallery in the HTML file
-- Edit the external link to link to a website of your choosing
-- Add a bio from Wikipedia
+- Add images of your favourite person into the image gallery in the HTML file
+- Edit the external link to link to their bio from Wikipedia
+- Finally, Get creative! Change anything else you want on the website. Judges will be taking into account user experience and any extra feature you have added.
 
 ### Optional Extension: JavaScript TicTacToe
 - Change the colours of the tic-tac-toe game to match the theme of the website
